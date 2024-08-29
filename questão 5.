@@ -1,0 +1,19 @@
+produtos = [
+    {
+        'livro': 'Livro de ficção',
+        'preço': '45.00'
+    },
+    {
+        'livro': 'Livro de ficção científica',
+        'preço': '50.00'
+    },
+    {
+        'livro': 'Livro de receitas',
+        'preço': '40.00'
+    }
+]
+
+for produto in produtos:
+    nome = produto['livro']
+    preço = produto ['preço']
+    print(f'{nome} - R$ {preço}')
